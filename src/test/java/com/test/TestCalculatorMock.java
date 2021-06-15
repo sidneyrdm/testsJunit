@@ -14,7 +14,7 @@ public class TestCalculatorMock {
         Calculator calculator = mock(Calculator.class);
 
         when(calculator.somar("1+2")).thenReturn(10);
-        
+
         int resultado = calculator.somar("1+2");
 
         assertEquals(10, resultado);
