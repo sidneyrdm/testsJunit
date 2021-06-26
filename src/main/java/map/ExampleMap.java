@@ -34,6 +34,11 @@ public class ExampleMap {
 
         System.out.println("Método size.: "+campeosMundialFifa.size());
 
+        //navegação nos registros do Map
+        for (Map.Entry<String, Integer > entry : campeosMundialFifa.entrySet()){
+            System.out.println(entry.getKey() + "-- "+ entry.getValue());
+        }
+
 
 
 
